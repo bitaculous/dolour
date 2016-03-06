@@ -9,8 +9,9 @@ gem 'colorscore', github: 'quadule/colorscore'
 
 # === Tasks ===
 
-gem 'rake',   '~> 10.5.0'
-gem 'pastel', '~> 0.6.0'
+gem 'bitaculous-thorify', github: 'bitaculous/thorify'
+
+gem 'rake', '~> 10.5.0', require: false
 
 # === Test ===
 

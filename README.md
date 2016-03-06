@@ -15,8 +15,27 @@ Install
 Usage
 -----
 
-1. Place the to be examined images into the `images` folder
-2. Run `rake`
+First, place the to be examined images into the `images` folder.
+
+### Tasks
+
+Extract the dominate colors:
+
+```
+$ thor dolour:extract
+```
+
+Extract the dominate colors with Miro:
+
+```
+$ thor miro:extract <image>
+```
+
+Extract the dominate colors with Colorscore:
+
+```
+$ thor colorscore:extract <image>
+```
 
 Credits
 -------
