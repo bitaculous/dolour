@@ -3,7 +3,7 @@ require 'colorscore'
 # The Colorscore class, inherited from `Task`.
 class Colorscore < Task
   desc 'extract <IMAGE>', 'Extract the dominate colors with Colorscore'
-  def extract(image, color_count = 5)
+  def extract(image, color_count = 10)
     if File.exist? image
       log "Extracting the dominate colors from `#{image}` with Colorscore...", :yellow
 
