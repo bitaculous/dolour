@@ -6,6 +6,7 @@ source 'https://rubygems.org'
 
 gem 'miro',       github: 'jonbuda/miro'
 gem 'colorscore', github: 'quadule/colorscore'
+gem 'fastimage',  '~> 1.9.0'
 
 # === Tasks ===
 

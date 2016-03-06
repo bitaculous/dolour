@@ -8,9 +8,13 @@
 Install
 -------
 
-    $ git clone git@github.com:bitaculous/dolour.git dolour
-    $ cd dolour
-    $ bundle
+1. Clone the repository
+
+    ```shell
+    git clone git@github.com:bitaculous/dolour.git
+    ```
+
+2. Run `bundle` to install all dependencies with [Bundler]
 
 Usage
 -----
@@ -47,6 +51,7 @@ License
 
 Dolour is released under the [MIT License (MIT)], see [LICENSE].
 
+[Bundler]: http://bundler.io "The best way to manage a Ruby application's gems"
 [Colorscore]: https://github.com/quadule/colorscore "Finds the dominant colors in an image and scores them against a user-defined palette, using the CIE2000 Delta E formula."
 [Dolour]: https://bitaculous.github.io/dolour/ "Extract the dominate colors from an image."
 [Gemnasium]: https://gemnasium.com/bitaculous/dolour "Dolour at Gemnasium"
