@@ -3,7 +3,7 @@
 
 [![Gemnasium Status][Gemnasium Status]][Gemnasium]
 
-**Extract the dominate colors from image.**
+**Extract the dominate colors from an image.**
 
 Install
 -------
@@ -17,7 +17,7 @@ License
 
 Dolour is released under the [MIT License (MIT)], see [LICENSE].
 
-[Dolour]: https://bitaculous.github.io/dolour/ "Extract the dominate colors from image."
+[Dolour]: https://bitaculous.github.io/dolour/ "Extract the dominate colors from an image."
 [Gemnasium]: https://gemnasium.com/bitaculous/dolour "Dolour at Gemnasium"
 [Gemnasium Status]: https://img.shields.io/gemnasium/bitaculous/dolour.svg?style=flat "Gemnasium Status"
 [LICENSE]: https://raw.githubusercontent.com/bitaculous/dolour/master/LICENSE "License"
