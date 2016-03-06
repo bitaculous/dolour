@@ -5,5 +5,4 @@ Dir.glob('tasks/*.rake').each { |task| load task }
 
 # === Configuration ===
 
-# Run RuboCop as default task.
-task default: 'rubocop'
+task default: ['miro:run', 'colorscore:run']
