@@ -1,0 +1,15 @@
+{
+  "folders": [
+    {
+      "name": "dolour",
+      "path": "./",
+      "folder_exclude_patterns": [
+        ".bundle",
+        "bin"
+      ],
+      "file_exclude_patterns": [
+        ".keep"
+      ]
+    }
+  ]
+}
