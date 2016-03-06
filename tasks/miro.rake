@@ -8,8 +8,8 @@ namespace :miro do
   desc 'Extract dominate colors from with Miro'
   task :run do
     Miro.options[:method]            = 'histogram'
-    Miro.options[:color_count]       = 2
-    Miro.options[:resolution]        = '256x256'
+    Miro.options[:color_count]       = 4
+    Miro.options[:resolution]        = '512x512'
     Miro.options[:image_magick_path] = '/usr/local/bin/convert'
 
     root   = File.expand_path '../', __dir__
