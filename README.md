@@ -15,7 +15,7 @@ Install
 Usage
 -----
 
-First, place the to be examined images into the `images` folder.
+Place the to be examined images into the `images` folder.
 
 ### Tasks
 
