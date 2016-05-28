@@ -44,7 +44,7 @@ $ thor colorscore:extract <image>
 Credits
 -------
 
-All credits goes to [Jon Buda] for [Miro] and [Milo Winningham] for [Colorscore] which both are used under the hood.
+All credit goes to [Jon Buda] for [Miro] and [Milo Winningham] for [Colorscore], which both are used under the hood.
 
 License
 -------
