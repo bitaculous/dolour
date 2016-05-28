@@ -12,10 +12,10 @@ gem 'fastimage',  '~> 1.9.0'
 
 gem 'bitaculous-thorify', github: 'bitaculous/thorify'
 
-gem 'rake', '~> 10.5.0', require: false
+gem 'rake', '~> 11.1.2'
 
 # === Test ===
 
 group :test do
-  gem 'rubocop', '~> 0.37.2', require: false
+  gem 'rubocop', '~> 0.40.0', require: false
 end
