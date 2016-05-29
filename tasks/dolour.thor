@@ -1,6 +1,6 @@
 # The Dolour class, inherited from `Task`.
 class Dolour < Task
-  desc 'extract', 'Extract the dominate colors'
+  desc 'extract <COLOR_COUNT = 4>', 'Extract the dominate colors'
   def extract(color_count = 4)
     root   = File.expand_path '../', __dir__
     images = File.expand_path 'images', root

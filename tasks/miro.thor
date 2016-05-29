@@ -3,7 +3,7 @@ require 'fastimage'
 
 # The Miro class, inherited from `Task`.
 class Miro < Task
-  desc 'extract <IMAGE>', 'Extract the dominate colors with Miro'
+  desc 'extract <IMAGE> <COLOR_COUNT = 4>', 'Extract the dominate colors with Miro'
   def extract(image, color_count = 4, resolution = 'auto', method = 'pixel_group', image_magick_path = '/usr/local/bin/convert')
     if File.exist? image
       log "Extracting the dominate colors from `#{image}` with Miro...", :yellow
