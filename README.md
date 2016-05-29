@@ -26,19 +26,19 @@ Place the to be examined images into the `images` folder.
 Extract the dominate colors:
 
 ```
-$ thor dolour:extract
+$ thor dolour:extract <COLOR_COUNT>
 ```
 
 Extract the dominate colors with Miro:
 
 ```
-$ thor miro:extract <image>
+$ thor miro:extract <IMAGE> <COLOR_COUNT>
 ```
 
 Extract the dominate colors with Colorscore:
 
 ```
-$ thor colorscore:extract <image>
+$ thor colorscore:extract <IMAGE> <COLOR_COUNT>
 ```
 
 Credits
