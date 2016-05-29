@@ -3,7 +3,7 @@ require 'colorscore'
 # The Colorscore class, inherited from `Task`.
 class Colorscore < Task
   desc 'extract <IMAGE>', 'Extract the dominate colors with Colorscore'
-  def extract(image, color_count = 10)
+  def extract(image, color_count = 4)
     if File.exist? image
       log "Extracting the dominate colors from `#{image}` with Colorscore...", :yellow
 
@@ -11,9 +11,9 @@ class Colorscore < Task
 
       histogram.scores.each do |score|
         value = score[0]
-        hex   = score[1].hex
+        hex   = score[1].hex if score[1]
 
-        puts "##{hex} (#{value})"
+        puts "##{hex} (#{value})" if hex
       end
     end
   end
