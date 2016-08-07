@@ -10,8 +10,8 @@ Install
 
 1. Clone the repository
 
-    ```shell
-    git clone git@github.com:bitaculous/dolour.git
+    ```
+    $ git clone git@github.com:bitaculous/dolour.git
     ```
 
 2. Run `bundle` to install all dependencies with [Bundler]
