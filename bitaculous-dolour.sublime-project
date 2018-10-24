@@ -1,7 +1,7 @@
 {
   "folders": [
     {
-      "name": "dolour",
+      "name": "bitaculous-dolour",
       "path": "./",
       "folder_exclude_patterns": [
         ".bundle"
